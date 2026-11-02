@@ -14,7 +14,13 @@ Minimal FastAPI + React + SQLite library app: log in, browse books, buy a book.
 | alice    | password123  |
 | bob      | password123  |
 
-## Run locally
+## VS Code / Cursor
+
+Open the **repo root** in VS Code or Cursor. Run task **`Setup: create venv & install all`** once, then use **Run and Debug** (`Backend: FastAPI`, `Frontend: Vite`, or `Full stack: API + Vite`).
+
+No day-to-day `source .venv/bin/activate` — the workspace points at `backend/.venv`. Details: [docs/vscode.md](docs/vscode.md).
+
+## Run locally (terminal)
 
 ### 1. Backend
 
